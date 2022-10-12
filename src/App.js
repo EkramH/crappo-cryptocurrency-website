@@ -1,9 +1,10 @@
 import "./App.css";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <div>
-      <h1 className="text-4xl">Crappo</h1>
+      <Hero />
     </div>
   );
 }
