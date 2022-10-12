@@ -17,10 +17,14 @@ function App() {
 
   return (
     <div>
-      <Header />
+      <Header setNavMobile={setNavMobile} />
       <Hero />
-      <div className="fixed z-10 top-0 h-full transition-all duration-200">
-        <NavMobile />
+      <div
+        className={`${
+          navMobile ? "right-0" : "-right-full"
+        } fixed z-10 top-0 h-full transition-all duration-200`}
+      >
+        <NavMobile setNavMobile={setNavMobile} />
       </div>
     </div>
   );

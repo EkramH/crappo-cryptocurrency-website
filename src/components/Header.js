@@ -4,7 +4,7 @@ import { CgMenuRight } from "react-icons/cg";
 import Nav from "./Nav";
 import AccountBtns from "./AccountBtns";
 
-const Header = () => {
+const Header = ({ setNavMobile }) => {
   return (
     <header
       className="py-[30px] lg:pt-[60px]"
@@ -20,7 +20,10 @@ const Header = () => {
           <Nav />
           <AccountBtns />
         </div>
-        <div className="lg:hidden cursor-pointer">
+        <div
+          onClick={() => setNavMobile(true)}
+          className="lg:hidden cursor-pointer"
+        >
           <CgMenuRight className="text-2xl" />
         </div>
       </div>
