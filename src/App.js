@@ -11,6 +11,7 @@ import Calculate from "./components/calculate/Calculate";
 import Trade from "./components/Trade";
 import Features from "./components/features/Features";
 import NewsLetter from "./components/newsLetter/NewsLetter";
+import Footer from "./components/Footer";
 
 function App() {
   const [navMobile, setNavMobile] = useState(false);
@@ -38,6 +39,7 @@ function App() {
       <Trade />
       <Features />
       <NewsLetter />
+      <Footer />
     </div>
   );
 }
