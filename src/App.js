@@ -3,10 +3,11 @@ import "./App.css";
 import Hero from "./components/Hero";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Header from "./components/Header";
-import NavMobile from "./components/NavMobile";
+import Header from "./components/header/Header";
+import NavMobile from "./components/header/NavMobile";
 import Stats from "./components/Stats";
 import Why from "./components/Why";
+import Calculate from "./components/calculate/Calculate";
 
 function App() {
   const [navMobile, setNavMobile] = useState(false);
@@ -30,6 +31,7 @@ function App() {
       </div>
       <Stats />
       <Why />
+      <Calculate />
     </div>
   );
 }
