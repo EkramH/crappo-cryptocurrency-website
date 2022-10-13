@@ -9,6 +9,7 @@ import Stats from "./components/Stats";
 import Why from "./components/Why";
 import Calculate from "./components/calculate/Calculate";
 import Trade from "./components/Trade";
+import Features from "./components/features/Features";
 
 function App() {
   const [navMobile, setNavMobile] = useState(false);
@@ -20,7 +21,7 @@ function App() {
   });
 
   return (
-    <div>
+    <div className="overflow-hidden">
       <Header setNavMobile={setNavMobile} />
       <Hero />
       <div
@@ -34,6 +35,7 @@ function App() {
       <Why />
       <Calculate />
       <Trade />
+      <Features />
     </div>
   );
 }
