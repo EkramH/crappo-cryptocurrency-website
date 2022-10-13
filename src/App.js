@@ -8,6 +8,7 @@ import NavMobile from "./components/header/NavMobile";
 import Stats from "./components/Stats";
 import Why from "./components/Why";
 import Calculate from "./components/calculate/Calculate";
+import Trade from "./components/Trade";
 
 function App() {
   const [navMobile, setNavMobile] = useState(false);
@@ -32,6 +33,7 @@ function App() {
       <Stats />
       <Why />
       <Calculate />
+      <Trade />
     </div>
   );
 }
