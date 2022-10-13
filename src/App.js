@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import Header from "./components/Header";
 import NavMobile from "./components/NavMobile";
 import Stats from "./components/Stats";
+import Why from "./components/Why";
 
 function App() {
   const [navMobile, setNavMobile] = useState(false);
@@ -28,6 +29,7 @@ function App() {
         <NavMobile setNavMobile={setNavMobile} />
       </div>
       <Stats />
+      <Why />
     </div>
   );
 }
