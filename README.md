@@ -8,6 +8,6 @@
 
 - Real time Cryptocurrency value and price api.
 
-- All device responsive desing.
+- All device responsive design.
 
 `react` `firebase` `tailwind` `axios` `coingecko`.
