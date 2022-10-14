@@ -4,8 +4,6 @@
 
 ## Details
 
-It's a Chat App with ReactJS and Firebase.
-
 - One page Cryptocurrency Website design.
 
 - Real time Cryptocurrency value and price api.
